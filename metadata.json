@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Expressive Chat",
+  "description": "An AI chatbot with a Material 3 Expressive-inspired UI, featuring AI-powered widgets like a weather display, built with React, Tailwind CSS, and the Gemini API.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini Expressive Chat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+      }
+      .markdown-content h1, .markdown-content h2, .markdown-content h3 { font-weight: bold; margin-bottom: 0.5rem; }
+      .markdown-content p { margin-bottom: 1rem; }
+      .markdown-content ul { list-style-type: disc; padding-left: 20px; margin-bottom: 1rem; }
+      .markdown-content ol { list-style-type: decimal; padding-left: 20px; margin-bottom: 1rem; }
+      .markdown-content pre { background-color: #1A2027; padding: 1rem; border-radius: 0.5rem; margin-bottom: 1rem; white-space: pre-wrap; word-wrap: break-word; }
+      .markdown-content code { background-color: #1A2027; padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-family: monospace; }
+      .markdown-content pre code { background-color: transparent; padding: 0; }
+      .markdown-content a { color: #90caf9; text-decoration: underline; }
+      .markdown-content blockquote { border-left: 4px solid #4A5568; padding-left: 1rem; margin-left: 0; color: #A0AEC0; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^18.3.1/",
+    "react": "https://aistudiocdn.com/react@^18.3.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^18.3.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0",
+    "marked": "https://aistudiocdn.com/marked@^16.2.1",
+    "@mui/joy/": "https://aistudiocdn.com/@mui/joy@^5.0.0-beta.48/",
+    "@emotion/react": "https://aistudiocdn.com/@emotion/react@^11.13.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
